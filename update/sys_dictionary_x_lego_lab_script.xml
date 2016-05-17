@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="description" table="x_lego_script">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="script" table="x_lego_lab">
         <active>true</active>
         <array>false</array>
         <attributes/>
@@ -14,10 +14,10 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Description</column_label>
+        <column_label>Script</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>// Add your script here</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -27,13 +27,13 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>description</element>
+        <element>script</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="Script">script</internal_type>
         <mandatory>false</mandatory>
-        <max_length>100</max_length>
-        <name>x_lego_script</name>
+        <max_length>8000</max_length>
+        <name>x_lego_lab</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -50,18 +50,18 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2016-04-08 19:55:56</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
-        <sys_id>33771673e89312007f44a6e5612a7f6d</sys_id>
+        <sys_created_on>2016-05-17 05:45:09</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>dba7d273e89312007f44a6e5612a7f04</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Description</sys_name>
+        <sys_name>Script</sys_name>
         <sys_package display_value="Lego" source="x_lego">e1e3a86367221200dfe55bb557415ae6</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Lego">e1e3a86367221200dfe55bb557415ae6</sys_scope>
-        <sys_update_name>sys_dictionary_x_lego_script_description</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2016-05-17 05:43:36</sys_updated_on>
+        <sys_update_name>sys_dictionary_x_lego_lab_script</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2016-05-17 05:45:09</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
